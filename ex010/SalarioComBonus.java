@@ -20,6 +20,6 @@ public class SalarioComBonus {
 
         total = vendasEfetuadas * COMISSAO + salarioFixo;
 
-        System.out.printf("TOTAL = R$ %.2f", total);
+        System.out.printf("TOTAL = R$ %.2f\n", total);
     }
 }

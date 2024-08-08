@@ -16,6 +16,6 @@ public class Consumo {
 
         valorTotal = X / Y;
 
-        System.out.printf("%.3f km/l", valorTotal);
+        System.out.printf("%.3f km/l\n", valorTotal);
     }
 }

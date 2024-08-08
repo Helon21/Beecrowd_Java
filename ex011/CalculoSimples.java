@@ -21,6 +21,6 @@ public class CalculoSimples {
 
         valorTotal = (quantidadePecas * valorPeca1) + (quantidadePecas2 * valorPeca2);
 
-        System.out.printf("VALOR A PAGAR: R$ %.2f", valorTotal);
+        System.out.printf("VALOR A PAGAR: R$ %.2f\n", valorTotal);
     }
 }

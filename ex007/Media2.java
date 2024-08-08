@@ -17,7 +17,7 @@ public class Media2 {
 
         if(A >= 0 && A <= 10.0 && B >= 0 && B <= 10.0 && C >= 0 && C <= 10.0) {
             MEDIA = ((A * 2) + (B * 3) + (C * 5)) / 10;
-            System.out.printf("MEDIA = %.1f", MEDIA);
+            System.out.printf("MEDIA = %.1f\n", MEDIA);
         } else {
             System.out.println("Erro: os valores tem que ser maiores do que 0 e menores do que 10");
         }
